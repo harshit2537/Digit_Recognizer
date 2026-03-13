@@ -1,5 +1,10 @@
 # Digit Recognizer
 
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Project-Active-success)
+
 A real-time handwritten digit recognition web application built using a **Convolutional Neural Network (CNN)** trained on the **MNIST dataset**.
 
 Users can draw digits (0–9) on an interactive canvas, and the AI model predicts the digit instantly along with prediction confidence and probability distribution.
@@ -72,7 +77,29 @@ Because of these properties, CNN achieves higher accuracy for handwritten digit 
 * **Dataset:** MNIST Handwritten Digits
 * **Input Size:** 28 × 28 grayscale image
 * **Output:** Digit classification (0–9)
+---
 
+## Model Architecture
+
+The CNN architecture used for digit recognition:
+
+ Input (28x28 grayscale image)
+↓
+Conv2D (32 filters)
+↓
+MaxPooling
+↓
+Conv2D (64 filters)
+↓
+MaxPooling
+↓
+Flatten
+↓
+Dense (128)
+↓
+Dropout
+↓
+Dense (10 - Softmax output)
 ---
 
 ## Application Workflow
