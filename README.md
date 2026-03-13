@@ -78,29 +78,26 @@ Because of these properties, CNN achieves higher accuracy for handwritten digit 
 * **Input Size:** 28 × 28 grayscale image
 * **Output:** Digit classification (0–9)
 ---
-
 ## Model Architecture
-
-The CNN architecture used for digit recognition:
-
- Input (28x28 grayscale image)
-↓
-Conv2D (32 filters)
-↓
-MaxPooling
-↓
-Conv2D (64 filters)
-↓
-MaxPooling
-↓
-Flatten
-↓
-Dense (128)
-↓
-Dropout
-↓
-Dense (10 - Softmax output)
----
+       Input Image (28 × 28 grayscale)
+            ↓
+      Conv2D Layer (32 filters, 3×3 kernel, ReLU activation)
+            ↓
+      MaxPooling Layer (2×2)
+            ↓
+      Conv2D Layer (64 filters, 3×3 kernel, ReLU activation)
+            ↓
+      MaxPooling Layer (2×2)
+            ↓
+      Flatten Layer
+            ↓
+      Dense Layer (ReLU activation)
+            ↓
+      Dropout Layer (0.5)
+            ↓
+      Output Layer (Softmax)
+            ↓
+      Digit Prediction (0–9)
 
 ## Application Workflow
 
