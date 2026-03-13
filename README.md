@@ -28,6 +28,7 @@ Users can draw digits (0–9) on an interactive canvas, and the AI model predict
 
 * **Python**
 * **TensorFlow / Keras**
+* **Open cv**
 * **NumPy**
 * **SciPy**
 * **Gradio** (for UI)
