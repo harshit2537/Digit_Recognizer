@@ -94,13 +94,13 @@ Because of these properties, CNN achieves higher accuracy for handwritten digit 
 Clone the repository:
 
 ```
-git clone https://github.com/harshit2537/DigitRecognizer.git
+git clone https://github.com/harshit2537/Digit_Recognizer.git
 ```
 
 Navigate to the project folder:
 
 ```
-cd DigitRecognizer
+cd Digit_Recognizer
 ```
 
 Install dependencies:
@@ -112,7 +112,7 @@ pip install -r requirements.txt
 Run the application:
 
 ```
-python digitrecognizer.py
+python app.py
 ```
 
 Open in browser:
